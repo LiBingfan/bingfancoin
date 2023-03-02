@@ -1,0 +1,9 @@
+Building Bingfancoin
+
+See doc/readme-qt.rst for instructions on building Bingfancoin-Qt,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of Bingfancoin.
+
+See doc/build-*.txt for instructions on building bingfancoind,
+the intended-for-services, no-graphical-interface, reference
+implementation of Bingfancoin.

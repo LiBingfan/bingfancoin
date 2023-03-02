@@ -1,0 +1,34 @@
+src/*.exe
+src/bingfancoin
+src/bingfancoind
+src/test_bingfancoin
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.bingfancoin
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+bingfancoin-qt
+Bingfancoin-Qt.app
+
+# Unit-tests
+Makefile.test
+bingfancoin-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb*/Makefile
